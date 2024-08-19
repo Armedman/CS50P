@@ -1,8 +1,8 @@
-answer = input("What is the Answer to the Great Question of Life, the Universe, and Everything? ").lower().strip()
+def deep_thought():
+    answer = input("پرسش‌هایی درباره‌ی زندگی، جهان و همه‌چی: ").strip().lower()
+    if answer in ["42", "forty two", "forty-two"]:
+        print("yes")
+    else:
+        print("no")
 
-right = ["42", "forty two", "forty-two"]
-
-if answer in right:
-    print("Yes")
-else:
-    print("No")
+deep_thought()
